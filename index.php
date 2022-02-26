@@ -77,13 +77,13 @@ if(isset($_POST["submit"]) ){
                 <a class = "daftar" href="daftar.html" target="_blank">Sign Up!</a>
                 </div>
                 <br>
-                <!--<?php if (isset($error)) : ?>-->
+                <?php if (isset($error)) : ?>
                     <div class="alert alert-danger d-flex align-items-center" role="alert">
                     <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
                    <div> Username/Password Salah!
                     </div>
                   </div>
-               <!-- <?php endif; ?>-->
+                <?php endif; ?>
               </form>
             </div>
           </div>
